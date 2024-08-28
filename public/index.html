@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perílipsi</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body class="bg-gray-900 text-gray-200 p-5 text-center font-roboto">
+    <h1 class="text-5xl font-bold text-white mb-8">Perílipsi</h1>
+    <p class="leading-relaxed mb-5 text-lg text-gray-300">
+      Hey there! Welcome to our Quick Summarize App! 🎉 Need a quick summary of a long text? Whether it's an article, research paper, or just a super wordy document, we've got you covered.
+    </p>
+    <p class="leading-relaxed mb-10 text-lg text-gray-300">
+      Just drop your text into the box below and hit "Summarize." It's that simple! 🚀
+    </p>
+    <div class="container flex flex-wrap justify-center gap-2 mx-auto p-5">
+      <div class="text-box w-full sm:w-[400px] bg-gray-800 rounded-lg shadow-md p-5 flex flex-col">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000" class="textarea-style bg-gray-700 text-gray-200 placeholder-gray-400"></textarea>
+        <button id="submit-button" class="submit-button custom-button">
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box w-full sm:w-[400px] bg-gray-800 rounded-lg shadow-md p-5 flex flex-col">
+        <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here" class="textarea-style bg-gray-700 text-gray-200 placeholder-gray-400"></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
