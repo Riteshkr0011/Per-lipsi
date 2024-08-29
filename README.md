@@ -61,9 +61,18 @@ Perílipsi is a powerful AI-driven text summarization app that leverages Faceboo
 
 ### Usage
 
-1. Open your browser and navigate to `http://localhost:3000`.
-2. Input the text you want to summarize in the provided text box.
-3. Click on the "Summarize" button to generate the summary.
+1. **Home Page**: Navigate to the home page of the application available on `http://localhost:3000`
+   
+   ![Home Page](./images/HOME-PAGE.png)
+
+2. **Enter Text**: Input the text you want to summarize in the provided text box.
+   
+   ![Text Enter](./images/TEXT-ENTER.png)
+
+3. **Summarized Text**: Click on the "Summarize" button to generate the summary.
+   
+   ![Summarized Text](./images/SUMMARISED-TEXT.png)
+
 
 ## Contributing
 
